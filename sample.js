@@ -1,12 +1,10 @@
-function calculateAndPrintSum() {
-  const num1 = 21;
-  const num2 = 20;
-  const sum = num1 + num2;
-  console.log(sum);
+// Define a function to add two numbers
+function addNumbers(num1, num2) {
+  return num1 + num2;
 }
 
-calculateAndPrintSum();
+// Call the function with 21 and 20
+const result = addNumbers(21, 20);
 
-module.exports = {
-  calculateAndPrintSum
-};
+// Print the result
+console.log(result);
