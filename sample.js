@@ -1,4 +1,12 @@
-var a=21;
-var b=20;
-var c=a+b;
-console.log(c);
+function calculateAndPrintSum() {
+  const num1 = 21;
+  const num2 = 20;
+  const sum = num1 + num2;
+  console.log(sum);
+}
+
+calculateAndPrintSum();
+
+module.exports = {
+  calculateAndPrintSum
+};
