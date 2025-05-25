@@ -1,10 +1,10 @@
-// Define a function to add two numbers
-function addNumbers(num1, num2) {
-  return num1 + num2;
-}
+// This function adds two numbers and logs the result to the console.
+const addAndLog = () => {
+  const a = 21;
+  const b = 20;
+  const c = a + b;
+  console.log(c);
+};
 
-// Call the function with 21 and 20
-const result = addNumbers(21, 20);
-
-// Print the result
-console.log(result);
+// Call the function to execute the logic.
+addAndLog();
